@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
+    "g": "npx hexo generate",
+    "clean": "npx hexo clean",
+    "d": "npx hexo deploy",
+    "server": "npx hexo server",
+    "new": "npx hexo new simple",
+    "publish": "npx hexo g -d"
   },
   "hexo": {
     "version": "4.2.0"
