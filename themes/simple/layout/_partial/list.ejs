@@ -1,0 +1,14 @@
+<!--<h1>文章列表</h1>-->
+<section>
+    <% site.categories.each(function(cat){ %>
+        <% console.log(cat) %>
+        <h2 class="title2"><%- cat.name %></h2>
+        <ul>
+            <% cat.posts.each(function(post) { %>
+                <li style="overflow: hidden"><a href="<%- url_for(post.path) %>"><%- post.title %></a>
+                    <%- partial('_partial/tags', {post: post}) %>
+                </li>
+            <% }) %>
+        </ul>
+    <% }) %>
+</section>
