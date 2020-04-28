@@ -1,6 +1,8 @@
-
-"title":{{ title }},
-"date":"{{ date }}",
-"tags":"other",
-"categories":"其他"
-;;;
+---
+title: {{ title }}
+date: {{ date }}
+tags: 
+-   other
+categories:
+-   其他
+---
