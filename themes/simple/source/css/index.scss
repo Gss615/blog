@@ -126,9 +126,6 @@ figure {
   text-align: right;
 }
 
-.border-top{
-  border-top: 1px solid black;
-}
 
 @media(max-width: 1023px),(orientation: portrait) {
   .main {
@@ -207,4 +204,8 @@ a {
 //文章底部
 .post-footer{
   border-top: 1px solid black;
+  a{
+    color: black;
+  }
+
 }

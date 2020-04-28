@@ -4,6 +4,11 @@ menu:
   Archives: /archives
 rss: /atom.xml
 
+#github
+github:
+  history: https://github.com/Gss615/blog/commits/master/source/
+  edit: https://github.com/Gss615/blog/edit/master/source/
+
 # Content
 excerpt_link: Read More
 fancybox: true
