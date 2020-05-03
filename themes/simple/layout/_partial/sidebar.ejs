@@ -1,5 +1,4 @@
-<aside id="sidebar"<% if (theme.sidebar === 'bottom'){ %> class="outer"<% } %>>
-  <% theme.widgets.forEach(function(widget){ %>
-    <%- partial('_widget/' + widget) %>
-  <% }) %>
+<aside class="sidebar">
+    <h3>目录</h3>
+    <%- partial('_partial/toc') %>
 </aside>

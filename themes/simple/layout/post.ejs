@@ -2,6 +2,11 @@
 <section class="container">
     <%- partial('_partial/post/header') %>
     <hr>
-    <%- page.content %>
+    <mian>
+        <%- partial('_partial/sidebar') %>
+        <article>
+            <%- page.content %>
+        </article>
+    </mian>
 </section>
 <%- partial('_partial/post/footer') %>
