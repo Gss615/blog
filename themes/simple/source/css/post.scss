@@ -1,0 +1,14 @@
+
+//文章底部
+.post-footer{
+  text-align: right;
+  border-top: 1px solid black;
+  a{
+    color: black;
+    &:nth-child(1){
+      //display: inline-block;
+      //margin-right: 20%;
+      //color: $color;
+    }
+  }
+}
