@@ -12,9 +12,10 @@ npm run server
 
 ## Npm 脚本
 
--   使用`npm new <title>` 新建一篇文章
--   使用`npm run publish` 生成并发部文章
--   使用`npm run clean` 在修改主题无效时清除缓存
+-   使用 `npm run new <title>` 新建一篇文章
+-   使用 `npm run server` 本地预览
+-   使用 `npm run publish` 生成并发部文章
+-   使用 `npm run clean` 在修改主题无效时清除缓存
 
 
 

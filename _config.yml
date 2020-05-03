@@ -101,7 +101,7 @@ theme: simple
 deploy:
   type: git
   repo: https://github.com/Gss615/gss615.github.io.git
-  message: 'init blog'
+  message: 'add new blog'
 
 # RSS订阅支持
 plugin:
