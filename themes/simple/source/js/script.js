@@ -1,28 +1,10 @@
-console.log('js 已引入')
 
-// document.addEventListener('DOMContentLoaded', (event) => {
-//     document.querySelectorAll('pre code').forEach((block) => {
-//       hljs.highlightBlock(block);
-//     });
-//   });
-//   document.addEventListener('load', (event) => {
-//       console.log('load')
-//     document.querySelectorAll('pre code').forEach((block) => {
-//       hljs.highlightBlock(block);
-//     });
-//   });
 hljs.initHighlightingOnLoad()
-
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('页面加载完成')
-    console.log('页面加载完成', window.onload)
-    makeSomeThing()
-})
 window.onload = function () {
-    makeSomeThing()
+    waterFall()
 }
 
-function makeSomeThing() {
+function waterFall() {
     let box = document.querySelector('.cheat-sheet');
     let arr = [0]
     if (box !== null) {
@@ -52,8 +34,6 @@ function makeSomeThing() {
             }
 
         }
-
+        box.style.height = Math.max.apply(null, arr.filter(value => value)) + 'px'
     }
-    console.log(Math.max.apply(null, arr.filter(value => value)), arr)
-    box.style.height = Math.max.apply(null, arr.filter(value => value)) + 'px'
 }
