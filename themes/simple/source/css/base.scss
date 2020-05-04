@@ -30,6 +30,13 @@ a {
 code, kbd {
   font-family: /* font stack (monospaced) */
           'Latin Modern Mono', 'FreeMono', monospace;
+
+}
+
+pre > code {
+  padding: 1em !important;
+  border-radius: 2%;
+  background: #f0f6f7;
 }
 
 kbd {
@@ -61,7 +68,6 @@ table, th, td {
 ::-moz-selection {
   background-color: gainsboro;
 }
-
 
 
 article {
@@ -99,7 +105,6 @@ figure {
   margin: 1em 0;
   text-align: center;
 }
-
 
 
 // code 优化
@@ -143,7 +148,7 @@ a {
   color: $color;
 }
 
-img{
+img {
   max-width: 100%;
 }
 

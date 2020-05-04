@@ -2,11 +2,20 @@
 <section class="container">
     <%- partial('_partial/post/header') %>
     <hr>
-    <mian>
-        <%- partial('_partial/sidebar') %>
-        <article>
-            <%- page.content %>
-        </article>
-    </mian>
+    <% if(page.layout === 'cheatSheet') { %>
+        <mian>
+            <%- partial('_partial/sidebar') %>
+            <article class="cheat-sheet">
+                <%- page.content %>
+            </article>
+        </mian>
+    <% } else { %>
+        <mian>
+            <%- partial('_partial/sidebar') %>
+            <article>
+                <%- page.content %>
+            </article>
+        </mian>
+    <% } %>
 </section>
 <%- partial('_partial/post/footer') %>

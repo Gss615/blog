@@ -12,3 +12,20 @@
     }
   }
 }
+
+// cheat sheet
+.cheat-sheet{
+  position: relative;
+    h2,pre{
+      position: absolute;
+      width: 50%;
+      height: auto;
+      padding: 10px;
+    }
+
+  code{
+    font-size: 12px;
+
+  }
+
+}
