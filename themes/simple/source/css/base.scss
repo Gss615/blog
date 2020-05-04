@@ -27,27 +27,7 @@ a {
   text-decoration: none;
 }
 
-code, kbd {
-  font-family: /* font stack (monospaced) */
-          'Latin Modern Mono', 'FreeMono', monospace;
 
-}
-
-pre > code {
-  padding: 1em !important;
-  border-radius: 2%;
-  background: #f0f6f7;
-  line-height: 1.5;
-}
-
-kbd {
-  margin: 1px;
-  padding: 4px 8px;
-  border-radius: 6px;
-  box-shadow: 2px 2px 2px dimgray;
-  background-color: black;
-  color: white;
-}
 
 table {
   border-collapse: collapse;
@@ -107,12 +87,17 @@ figure {
   text-align: center;
 }
 
-
-// code 优化
-code {
+code, kbd {
   font-family: /* font stack (monospaced) */
           'Latin Modern Mono', 'FreeMono', monospace;
-  line-height: 1.4;
+
+}
+
+pre > code {
+  padding: 1em !important;
+  border-radius: 2%;
+  background: #f0f6f7;
+  line-height: 1.5;
   font-size: 14px;
 }
 
@@ -120,10 +105,11 @@ kbd {
   margin: 1px;
   padding: 4px 8px;
   border-radius: 6px;
-  box-shadow: 2px 2px 2px dimgrey;
+  box-shadow: 2px 2px 2px dimgray;
   background-color: black;
   color: white;
 }
+
 
 blockquote {
   background: gainsboro;
