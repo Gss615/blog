@@ -123,3 +123,13 @@ function foo(){
 - [ ] 未选中
 ```
 
+## 折叠
+```
+<details>
+  <summary>显示文字</summary>
+  <pre>
+   被折叠的部分
+  </pre>
+</details>
+```
+
