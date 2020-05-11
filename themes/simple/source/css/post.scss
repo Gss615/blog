@@ -13,6 +13,11 @@
   }
 }
 
+@media print{
+  .post-footer{
+    display: none;
+  }
+}
 // cheat sheet
 .cheat-sheet{
   position: relative;
