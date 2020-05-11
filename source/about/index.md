@@ -1,5 +1,5 @@
 ---
-title: about
+title: about me
 date: 2020-05-11 10:28:13
 ---
 
