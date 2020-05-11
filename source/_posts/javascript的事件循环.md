@@ -3,7 +3,7 @@ title: JavaScript的事件循环
 tags:
   - javascript
 categories:
-  - 学习
+  - javascript
 date: 2020-04-29 15:19:18
 ---
 

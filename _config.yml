@@ -95,6 +95,9 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: simple
 
+#plugins:
+#  - hexo-renderer-mathjax
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 # https://github.com/Gss615/blog-demo
@@ -106,6 +109,7 @@ deploy:
 # RSS订阅支持
 plugin:
   - hexo-generator-feed
+  - hexo-renderer-mathjax
 
 # Feed Atom
 feed:
@@ -113,3 +117,14 @@ type: atom
 path: atom.xml
 limit: 20
 
+math:
+  engine: 'mathjax' # or 'katex'
+  mathjax:
+    src: "//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+    config:
+    # MathJax config
+  katex:
+    css: #custom_css_source
+    js: #custom_js_source # not used
+    config:
+    # KaTeX config
