@@ -9,7 +9,7 @@ date: 2020-05-11 10:28:13
 - Email：gao.yh1991@gmail.com
 - 学历：河南工业职业技术学院
 - 经验：4 年
-- 个人博客：[https://gss615.github.io/](https://gss615.github.io/)
+- 个人博客：[https://www.gaoyuhao.me/](https://www.gaoyuhao.me/)
 - 期望职位：web前端（离职且已隔离，随时到岗）
 
 # 技能清单
